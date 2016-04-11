@@ -15,7 +15,8 @@ public class Jenkins_Demo_Project {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        ProjectB b = new ProjectB();
+        System.out.println(b.methodCalledFromPrjA());
     }
     
 }
